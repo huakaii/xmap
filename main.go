@@ -1,10 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"xmap/core/spider"
-)
+import "xmap/core/proxy"
 
 func main() {
-	fmt.Println(spider.Crawl("www.qq.com", "https://www.qq.com"))
+	//fmt.Println(spider.Crawl("www.qq.com", "https://www.qq.com"))
+	proxy.StartProxy()
+
 }
